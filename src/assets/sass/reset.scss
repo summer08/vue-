@@ -1,0 +1,167 @@
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+q:before, q:after { content: ''; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Microsoft YaHei';
+}
+
+html{
+    min-height: 100%;
+}
+
+// 自定义样式
+body{
+    width: 100%;
+    min-height: 100%;
+    min-width: 320px;
+    background-color: #f8f8f8;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mt9{
+    margin-top: 9px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.pb20{
+    padding-bottom: 20px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.disabled{
+    background: #FFDAB9 !important;
+}
+
+.module {
+    padding: 0 15px 15px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+//箭头
+.r_arrow{
+    display: inline-block;
+    width: 15px;
+    i{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-top: 1px solid #737373;
+        border-right: 1px solid #737373;
+        transform:rotate(45deg);
+    }
+}
+
+// 全屏按钮
+.largeBtn{
+    display: block;
+    width: 92%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background: #ffb27f;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.iphone-btn{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 50%;
+    border-radius: 15px;
+    i{
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        background-color: #fff;
+        border-radius: 50%;
+        margin-top: 1px;
+    }
+}
+
+.login-footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.textarea-box {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    width: 90%;
+    height: 200px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    line-height: 24px;
+    font-size: 14px;
+    color: #999;
+    margin: 20px 0;
+}

@@ -1,0 +1,60 @@
+{
+  "status": {
+    "error_code": 0,
+    "error_msg": "succ"
+  },
+  "model_name": "本周热销排行",
+  "count": "50",
+  "data": [
+    {
+      "book_id": "5372787",
+      "short_name": "重生之名门毒秀",
+      "intro": "我奉你若心头血，你践我如足下靴。七载堂堂丞相妻，一朝沦为阉伶妾，乃知君赠玉容膏，原来皆是避子药，剐我皮肉剜我骨，新人猖狂旧人哭。来世只愿为刀俎，杀尽天下负我狗！",
+      "cover": "http://vipbook.sinaedge.com/bookcover/dest170/115/cover_c6d2124e1d98a7ef0b9c603a3128ce4a.jpg",
+      "author_name": "朱七慕九",
+      "cate_id": "1006005",
+      "is_discount": 0,
+      "discount": "0",
+      "cate_name": "穿越重生",
+      "tags": [
+      "已完结",
+      "116万字",
+      "宫斗",
+      "古代言情",
+      "穿越生活"
+      ]
+    },
+    {
+      "book_id": "5373068",
+      "short_name": "危情婚爱，总裁宠妻如命",
+      "intro": "她一直视为亲人的大叔，却把她骗了婚……",
+      "cover": "http://vipbook.sinaedge.com/bookcover/dest170/140/cover_1557d5a5a6b1fc1f6a3881baf95c379f.jpg",
+      "author_name": "烟十一",
+      "cate_id": "1006004",
+      "is_discount": 0,
+      "discount": "0",
+      "cate_name": "总裁豪门",
+      "tags": [
+      "已完结",
+      "314万字",
+      "总裁豪门",
+      "领养"
+      ]
+    },
+    {
+      "book_id": "5386930",
+      "short_name": "禁欲总裁强制爱",
+      "intro": "一夜沉沦，苏蜜腹中多了一对龙凤胎。一夜强爱，千亿总裁多了夜夜梦见同一女人的病。五年后——第一面，拍卖会他拍下她，却道：“不是什么女人都能爬上我傅奕臣的床！”第二面，他压着她，“女人，你让我傅奕臣玩别的男人玩剩下的，好！有种！”第三面，他当众将她压在车盖上，“跟他离婚！以后你是我的女人！记住了！”许久后……",
+      "cover": "http://vipbook.sinaedge.com/bookcover/dest170/178/cover_07b3fcd4e5a2f5b82c3dcb9bd6b4f5a3.jpg?1495078476",
+      "author_name": "素锦",
+      "cate_id": "1006004",
+      "is_discount": 0,
+      "discount": "0",
+      "cate_name": "总裁豪门",
+      "tags": [
+      "连载中",
+      "252万字"
+      ]
+    }
+  ]
+}
